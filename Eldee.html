@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  
+  <script src='http://use.edgefonts.net/creepster.js'></script>
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+  <title>sales</title>
+</head>
+<style type="text/css">
+  
+.brandname{
+  color: blue;
+  padding: 5px;
+  background: lavender;
+  text-align: center;
+}
+.sales{
+  background: red;
+  color: white;
+} 
+@media(min-width: 500px){
+  .search{
+    margin-top: 10px;
+    text-align: center;
+    display: none;
+}
+.card__header img{
+  width: 250px;
+  }
+.cell, .cell2{
+  display: none;
+}
+
+.first-image2{
+width: 150px;
+}
+.first-image{
+
+  text-align: center;
+  
+}
+
+
+.first-image img{
+  margin: 10px;
+  margin-left: 20px;
+  text-align: center;
+width: 150PX;
+height: 200PX;
+}
+.head{
+background:green;
+padding-left: 10px;
+width: 300px;
+border-radius: 6px;
+margin-left: 10px;
+color: white;
+}
+  }
+
+.image img{
+  width: 300PX;
+height: 250PX;
+}
+ .ima img{
+  width: 200PX;
+height: 250PX;
+}
+.categories ::before {
+  background: url('IMG-20221011-WA0049.jpg');
+  background-size: cover;
+  position: absolute;
+  opacity: 0.75;
+}
+  
+.categories a:hover{
+  color: blue;
+}
+
+  .categories a:active{
+  color: red;
+}
+  .search{
+    margin-top: 10px;
+  }
+.categories li{
+
+
+list-style: upper-alpha;
+padding-left: 10px;
+color: darkred;
+font-size: 15px;
+}
+.categories a{
+display: flex;
+position: relative;
+list-style: upper-alpha;
+
+color: darkred;
+font-size: 15px;
+}
+
+span{
+  color: blue;
+}
+
+
+@media(max-width: 500px){
+  .search{
+    display: none;
+  }
+.first-image,.first-image2{
+display: none;
+}
+.cell img{
+  margin: 10px;
+  margin-left: 20px;
+width: 150PX;
+height: 200PX;
+
+}
+.image{
+  display: none;
+}
+.cell2 img{
+  width: 58%;
+  text-align: center;
+}
+.cell2{
+  padding: 4px;
+}
+.cell2 .user__image{
+  border-radius: 50%;
+  width: 20%;
+}
+}
+.head{
+background:red;
+background: linear-gradient(to right,green,#91eae4,#86a8e7);
+padding-left: 10px;
+
+border-radius: 6px;
+margin-left: 10px;
+color: white;
+}
+
+
+.w3-card-4{
+  clear: fix;
+  float: right;
+width: 50%;
+height: auto;
+border: 5px solid black;
+box-shadow: -3px -3px grey;
+
+}
+#tap{
+  display:none;
+  width: 100%;
+  background: blue;
+  color: white;
+}
+hr{
+  background: red;
+  color: black;
+  font-size: 12px;
+}
+
+#close{
+  float: right;
+  padding-right: 8px;
+}
+#shoes, #sandals{
+  display:none;
+  margin-top: 20px;
+  background: whitesmoke;
+padding: 12px;
+}
+#shoes,#sandals h2{
+  color: blue;
+  text-align: center;
+}
+#shoes p{
+float: ;
+}
+
+.mark{
+  width: 270px;
+}
+
+/** cards**/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin-block: 2rem;
+  gap: 2rem;
+
+}
+
+img {
+  
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  overflow: hidden;
+  box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  background: #ECE9E6;
+
+
+}
+
+
+.card__body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+
+.tag {
+  align-self: flex-start;
+  padding: .25em .75em;
+  border-radius: 1em;
+  font-size: .75rem;
+}
+
+.tag + .tag {
+  margin-left: .5em;
+}
+
+.tag-blue {
+  background: #56CCF2;
+background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+  color: #fafafa;
+}
+
+.tag-brown {
+  background: #D1913C;
+background: linear-gradient(to bottom, #FFD194, #D1913C);
+  color: #fafafa;
+}
+
+.tag-red {
+  background: #cb2d3e;
+background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+  color: #fafafa;
+}
+
+.card__body h4 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.card__footer {
+  display: flex;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+.user {
+  display: flex;
+  gap: .5rem;
+}
+
+.user__image {
+  border-radius: 50%;
+  
+}
+
+.user__info > small {
+  color: #666;
+}
+/**end of card**/
+.social a{
+    float:right ;
+    color: white;
+    font-size:20px;
+    width:25%;
+    padding-bottom:20px;
+    padding-left:5px;
+    padding-top:15px;
+}  
+center { 
+    color:black;
+    font-size:20px;
+    padding-bottom:20px;
+    background-color:orange;
+    
+    }
+
+.grdt{
+    font-size:13px;
+}
+
+
+
+
+
+
+.hide{
+  display: none;
+}
+#preloader{
+  background: orange url('Spin-Preloader-1.gif') no-repeat center center;
+  background-size: 40%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+iframe{
+  display: none;
+}
+</style>
+<body>
+<div id="preloader"></div>
+  <div class="sales">
+    <marquee behavior="scroll"  scrollamount="3" direction="left"><i>send me a DM...deliveries are available</i></marquee>    
+  </div>
+  <div class="brandname">
+    <b>EL-DEE STYLES</b>
+  </div>
+  
+  <div class="search">
+
+  </div>
+
+
+  <div class="categories">
+  <h2 style="text-align:center;">Categories</h2>
+  
+    <ul>
+     <li> <a href="slides.html"  >Footwears<div class="fas fa-shoe-cowboy" style="color:blue;"></div></a></li>
+      
+      
+      
+    </ul>
+    
+  </div>
+  
+
+ <!--desktop-->
+<div class="first-image">
+  <img src="IMG-20221011-WA0049.jpg"> <img src="IMG-20221012-WA0000.jpg"> <img src="IMG-20221012-WA0009.jpg"><img src="IMG-20221012-WA0004.jpg" >
+</div>
+
+<!--mobile-->
+<div class="cell">
+  <div class="ima"><marquee direction="right" behavior="scroll" scrollamount="3"> <img src="IMG-20221011-WA0050.jpg" ><img src="IMG-20221012-WA0000.jpg">
+<img src="IMG-20221011-WA0049.jpg" >
+<img src="IMG-20221012-WA0004.jpg" >
+</marquee>
+
+</div>
+  
+</div>
+<hr>
+
+  
+
+<div class="head">
+  <h2>Top offers</h2>
+</div>
+<!--mobile-->
+<div class="cell2">
+  <div>
+            <img src="IMG-20221012-WA0003.jpg" ><p>Eldee styles</p>
+            <p><a href="https://wa.me/+2349045974032 " target="_blank">Contact dealer<div class="fab fa-whatsapp" style="color:green;"></div></a></p>  
+      </div><hr>
+
+ <div> 
+       <img src="IMG-20221012-WA0010.jpg" ><p>Eldee styles</p> 
+       <p><a href="https://wa.me/+2349045974032 " target="_blank">Contact dealer<div class="fab fa-whatsapp" style="color:green;"></div></a></p> 
+      </div><hr>
+ 
+
+ <div> 
+        <img src="IMG-20221012-WA0008.jpg" ><p>Eldee</p>  
+        <p><a href="https://wa.me/+2349045974032 " target="_blank">Contact dealer<div class="fab fa-whatsapp" style="color:green;"></div></a></p>
+      </div><hr>
+</div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+<!--desktop-->
+</div>
+<div class="image"><marquee direction="left" behavior="scroll"> <img src="IMG-20221012-WA0004.jpg" >
+<img src="IMG-20221012-WA0006.jpg" >
+<img src="IMG-20221012-WA0005.jpg" > <img src="IMG-20221011-WA0050.jpg"></marquee></div>
+
+
+
+  <script type="text/javascript" src="else.js">
+    
+  </script>
+  <footer> 
+<center> 
+<div class="social"> 
+            <a href="https://wa.me/+2348035527091 " target="_blank">
+                <div class = "icon">
+                    <div class="fab fa-whatsapp" style="color:green;"></div>
+                </div>
+            </a>
+             <a href=" https://mobile.twitter.com/AgafieNuel"  target="_blank">
+                 <div class = "icon">
+                     <span style="padding-left:5px;"></span>
+                     <div class="fab fa-twitter-square" style="color:blue; opacity:0.5;"></div>
+                 </div>
+             </a>
+              
+            <a href=" https://www.linkedin.com/mwlite/in/nuel-agafie-5983b41b5" target="_blank">
+                <div class = "icon">
+                    <span style="padding-left:5px;"></span>
+                  <div class="fab fa-linkedin"></div>
+                </div>
+             </a>
+             <a href=" https://discord.gg/b2BH8cSH" target="_blank">
+                <div class = "icon">
+                    <span style="padding-left:5px;"></span>
+                  <div class="fab fa-discord"></div>
+                </div>
+             </a>
+             
+        </div>
+        <div class="grdt"> 
+        <a> NuelCorp @2022</a> | <a href=" Services.html">Terms of services</a>
+        </div>
+        </div>
+       </center> 
+  <iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+ 
+
+
+
+<script type="text/javascript">
+  var loader= document.getElementById('preloader');
+  window.addEventListener("load", function () {
+    loader.style.display ="none";
+  })
+</script>
+</footer>
+</body>
+</html>
+

@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  
+  <script src='http://use.edgefonts.net/creepster.js'></script>
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+  <title>sales</title>
+</head>
+<style type="text/css">
+
+.brandname{
+  color: blue;
+  padding: 5px;
+  background: lavender;
+  text-align: center;
+}
+.sales{
+  background: red;
+  color: white;
+} 
+@media(min-width: 500px){
+/** cards**/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin-block: 2rem;
+  gap: 2rem;
+
+}
+
+.head{
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  overflow: hidden;
+  box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  background: #ECE9E6;
+background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+
+}
+
+.card_image{
+
+}
+
+.card__body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+
+.tag {
+  align-self: flex-start;
+  padding: .25em .75em;
+  border-radius: 1em;
+  font-size: .75rem;
+}
+
+.tag + .tag {
+  margin-left: .5em;
+}
+
+.tag-blue {
+  background: #56CCF2;
+background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+  color: #fafafa;
+}
+
+.tag-brown {
+  background: #D1913C;
+background: linear-gradient(to bottom, #FFD194, #D1913C);
+  color: #fafafa;
+}
+
+.tag-red {
+  background: #cb2d3e;
+background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+  color: #fafafa;
+}
+
+.card__body h4 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.card__footer {
+  display: flex;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+.user {
+  display: flex;
+  gap: .5rem;
+}
+
+.user__image {
+  border-radius: 50%;
+  width: 22%;
+
+}
+
+.user__info > small {
+  color: #666;
+}
+/**end of card**/
+
+
+
+  .social a{
+    float:right ;
+    color: white;
+    font-size:20px;
+    width:25%;
+    padding-bottom:20px;
+    padding-left:5px;
+    padding-top:15px;
+}  
+center { 
+    color:black;
+    font-size:20px;
+    padding-bottom:20px;
+    background-color:black;
+    
+    }
+
+.grdt{
+    font-size:13px;
+}
+  .search{
+    margin-top: 10px;
+    text-align: center;
+}
+.card__header img{
+  width: 250px;
+  }
+.cell,.cell2{
+  display: none;
+}
+.first-image{
+
+  text-align: center;
+  background: mintcream;
+}
+
+.first-image img{
+  margin: 10px;
+  margin-left: 20px;
+  text-align: center;
+width: 150PX;
+height: 200PX;
+}
+.head{
+  text-decoration: underline;
+  margin-top: 40px;
+background:;
+padding-left: 10px;
+width: 300px;
+border-radius: 6px;
+margin-left: 10px;
+color: green;
+}
+
+  }
+
+
+.categories a:visited{
+  color: red;
+}
+.categories a:hover{
+  color: blue;
+}
+
+  .categories a:active{
+  color: red;
+}
+  .search{
+    margin-top: 10px;
+    display: none;
+  }
+.categories a{
+
+font-size: 15px;
+
+list-style: none;
+padding-left: 20px;
+color: darkred;
+}
+
+span{
+  color: blue;
+}
+    @media(max-width: 500px){
+.first-image{
+display: none;
+}
+.container {
+  display: none;
+  
+
+}
+.card{
+  display: none;
+}
+
+
+.head{
+text-decoration:underline;
+  margin-top: 40px;
+background:;
+padding-left: 10px;
+width: 100%;
+border-radius: 6px;
+margin-left: 10px;
+color: white;
+}
+
+  }
+
+
+.categories a:visited{
+  color: red;
+}
+.categories a:hover{
+  color: blue;
+}
+
+  .categories a:active{
+  color: red;
+}
+  .search{
+    margin-top: 10px;
+    display: none;
+  }
+  .categories li{
+    padding-left: 10px;
+  }
+.categories a{
+
+font-size: 15px;
+width: 50%;
+list-style: none;
+
+color: darkred;
+}
+.cell2{
+  text-align: center;
+}
+.cell2 img{
+  width: 47%;
+}
+.cell2 .user__image{
+  border-radius: 50%;
+  width: 22%;
+}
+}
+
+
+.w3-card-4{
+  clear: fix;
+  float: right;
+width: 50%;
+height: auto;
+border: 5px solid black;
+box-shadow: -3px -3px grey;
+
+}
+#tap{
+  display:none;
+  width: 100%;
+  background: blue;
+  color: white;
+}
+hr{
+  background: red;
+  color: black;
+  font-size: 12px;
+}
+
+#close{
+  float: right;
+  padding-right: 8px;
+}
+#shoes, #sandals{
+  display:none;
+  margin-top: 20px;
+  background: whitesmoke;
+padding: 12px;
+}
+#shoes,#sandals h2{
+  color: blue;
+  text-align: center;
+}
+#shoes p{
+float: ;
+}
+
+.mark{
+  width: 270px;
+}
+
+.social a{
+    float:right ;
+    color: white;
+    font-size:20px;
+    width:25%;
+    padding-bottom:20px;
+    padding-left:5px;
+    padding-top:15px;
+}  
+center { 
+    color:black;
+    font-size:20px;
+    padding-bottom:20px;
+    background-color:orange;
+    
+    }
+
+.grdt{
+    font-size:13px;
+}
+
+
+
+</style>
+<body>
+
+  <div class="sales">
+    <marquee behavior="scroll" direction="left"><i>online sales are available</i></marquee>   
+  </div>
+  <div class="brandname">
+    <b>EL-DEE STYLES</b>
+  </div>
+  
+  <div class="search">
+
+  </div>
+  <div class="categories">
+    
+      
+      <li><a href="ELdee.html" >Home<div class="fas fa-hat-home" style="color:blue;"></div></a></li>
+                
+      
+      
+    
+    
+  </div>
+
+<div class="head">
+  <h2 style="text-align: center;">Footwears</h2>
+</div>
+<!--desktop-->
+<div class="container">
+  <div class="card">
+    <div class="card__header">
+      <img src="IMG-20221011-WA0050.jpg" alt="card__image" class="card__image" >
+    </div>
+    <div class="card__body">
+      <span class="tag tag-brown">Shoes</span>
+      <h4>El-dee styles</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p>
+    </div>
+    <div class="card__footer">
+      <div class="user">
+        <img src="IMG-20221008-WA0021.jpg" alt="user__image" class="user__image">
+        <div class="user__info">
+          <h5>El-dee</h5>
+          <p><a href="https://wa.me/+2349045974032 " target="_blank">Contact dealer<div class="fab fa-whatsapp" style="color:green;"></div></a>
+          <small>2h ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card__header">
+       <img src="IMG-20221012-WA0009.jpg" alt="card__image" class="card__image" >
+    </div>
+    <div class="card__body">
+      <span class="tag tag-brown">shoes</span>
+      <h4>El-dee styles</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p>
+    </div>
+    <div class="card__footer">
+      <div class="user">
+        <img src="IMG-20221008-WA008" alt="user__image" class="user__image">
+        <div class="user__info">
+          <h5>El-dee</h5>
+          <p><a href="https://wa.me/+2349045974032 " target="_blank">Contact dealer<div class="fab fa-whatsapp" style="color:green;"></div></a>
+          <small>Yesterday</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card__header">
+      <img src="IMG-20221012-WA0010.jpg" alt="card__image" class="card__image" >
+    </div>
+    <div class="card__body">
+      <span class="tag tag-brown">shoes</span>
+      <h4>El-dee styles</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p>
+    </div>
+    <div class="card__footer">
+      <div class="user">
+        <img src="https://i.pravatar.cc/40?img=3" alt="user__image" class="user__image">
+        <div class="user__info">
+          <h5>El-dee</h5>
+          <p><a href="https://wa.me/+2349045974032 " target="_blank">Contact dealer<div class="fab fa-whatsapp" style="color:green;"></div></a>
+          <small>2d ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card__header">
+      <img src="IMG-20221012-WA0009.jpg" alt="card__image" class="card__image" >
+    </div>
+    <div class="card__body">
+      <span class="tag tag-brown">shoes</span>
+      <h4>El-dee styles</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p>
+    </div>
+    <div class="card__footer">
+      <div class="user">
+        <img src="https://i.pravatar.cc/40?img=3" alt="user__image" class="user__image">
+        <div class="user__info">
+          <h5>John Doe</h5>
+          <p><a href="https://wa.me/+2349045974032 " target="_blank">Contact dealer<div class="fab fa-whatsapp" style="color:green;"></div></a>
+          <small>2d ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card__header">
+      <img src="IMG-20221012-WA0003.jpg" alt="card__image" class="card__image" >
+    </div>
+    <div class="card__body">
+      <span class="tag tag-brown">shoes</span>
+      <h4>El-dee styles</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p>
+    </div>
+    <div class="card__footer">
+      <div class="user">
+        <img src="https://i.pravatar.cc/40?img=3" alt="user__image" class="user__image">
+        <div class="user__info">
+          <h5>John Doe</h5>
+          <p><a href="https://wa.me/+2349045974032 " target="_blank">Contact dealer<div class="fab fa-whatsapp" style="color:green;"></div></a>
+          <small>2d ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!--mobile-->
+<div class="cell2">
+  <div><img src="IMG-20221012-WA0009.jpg" ><p>Eldee</p>
+<p><a href="https://wa.me/+2349045974032 " target="_blank">Contact dealer<div class="fab fa-whatsapp" style="color:green;"></div></a></p> 
+
+        </div><hr>
+
+  <div>
+    <img src="IMG-20221011-WA0049.jpg" ><p>Eldee</p>
+    <p><a href="https://wa.me/+2349045974032 " target="_blank">Contact dealer<div class="fab fa-whatsapp" style="color:green;"></div></a></p> 
+ 
+        </div><hr>
+  <div><img src="IMG-20221012-WA0008.jpg" ><p>Eldee</p>
+    <p><a href="https://wa.me/+2349045974032 " target="_blank">Contact dealer<div class="fab fa-whatsapp" style="color:green;"></div></a></p> 
+        </div><hr>
+
+        <div><img src="IMG-20221012-WA0003.jpg" ><p>Eldee</p>
+    <p><a href="https://wa.me/+2349045974032 " target="_blank">Contact dealer<div class="fab fa-whatsapp" style="color:green;"></div></a></p> 
+        </div><hr>
+</div>
+
+
+
+  <script type="text/javascript" src="else.js">
+    
+  </script>
+  
+
+  <footer> 
+<center> 
+<div class="social"> 
+            <a href="https://wa.me/+2348035527091 " target="_blank">
+                <div class = "icon">
+                    <div class="fab fa-whatsapp" style="color:green;"></div>
+                </div>
+            </a>
+             <a href=" https://mobile.twitter.com/AgafieNuel"  target="_blank">
+                 <div class = "icon">
+                     <span style="padding-left:5px;"></span>
+                     <div class="fab fa-twitter-square" style="color:blue; opacity:0.5;"></div>
+                 </div>
+             </a>
+              
+            <a href=" https://www.linkedin.com/mwlite/in/nuel-agafie-5983b41b5" target="_blank">
+                <div class = "icon">
+                    <span style="padding-left:5px;"></span>
+                  <div class="fab fa-linkedin"></div>
+                </div>
+             </a>
+             <a href=" https://discord.gg/b2BH8cSH" target="_blank">
+                <div class = "icon">
+                    <span style="padding-left:5px;"></span>
+                  <div class="fab fa-discord"></div>
+                </div>
+             </a>
+             
+        </div>
+        <div class="grdt"> 
+        <a> Nozel-silva @2022</a> | <a href=" Services.html">Terms of services</a>
+        </div>
+        </div>
+       </center> 
+
+</footer>
+</body>
+</html>
+
