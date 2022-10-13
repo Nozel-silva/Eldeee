@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,6 +26,57 @@
   background: lavender;
   text-align: center;
 }
+
+.topnav {
+  overflow: hidden;
+  background-color: white; 
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: green; 
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+
+.topnav a.icon {
+  background: white;
+  display: block;
+  position: absolute;
+  color:black;
+  right: 0;
+  top: 0;
+}
+
+.topnav .icon:hover{
+    background:white;
+    color:black;
+}
+
+.topnav a:hover {
+  background-color: blue;
+  color: white; 
+  
+}
+.topnav .active:hover{
+    background:white;
+    color:black;
+}
+.topnav .active {
+  background-color: white;
+  color: black; 
+  text-align:center;
+}
+
+
+
 
 .cons {
 margin-top:16px;
@@ -365,16 +420,26 @@ center {
   <div class="sales">
     <marquee behavior="scroll" direction="left"><i>online sales are available</i></marquee>   
   </div>
-  <div class="brandname">
-            
-    <div class="dropdown">
-    <a class=" dropdown-toggle" type="button" data-toggle="dropdown">El-Dee styles
-    <span class="caret"></span></a>
-    <ul class="dropdown-menu">
-      <li><a href="#">ID</a></li>
-</ul>
-</div>
-  </div>
+ 
+             
+    <div class="topnav">
+
+  <a href="#home" class="active">El-D styles</a> 
+
+  <div id="myLinks"> 
+  <a href="index.html">Home</a>
+  <a>Shoes</a>
+  <a>Belts</a>
+    <a href="#news">ID</a> 
+    <a href="#contact">Contact Nozel</a>
+    <a href="#about">Report Dealer</a>
+    
+  </div> 
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div> 
+
 <div class="cons">  
       
             <a href="ad.html">  <i class="far fa-handshake" style="color:green;"></i></a>
@@ -570,4 +635,21 @@ center {
 </footer>
 </body>
 </html>
+
+
+
+
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 
